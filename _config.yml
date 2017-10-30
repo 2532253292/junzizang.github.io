@@ -1,1 +1,50 @@
-theme: jekyll-theme-architect
+# Basic
+title: 蝈蝈
+subtitle:  hi!蝈蝈的小屋诞生了！
+welcome_message: a git programer,a father
+description: 可以调素琴， 阅金经。 无丝竹之乱耳， 无案牍之劳形。
+creator: <a href="http://onev.cat">@onevcat</a>
+
+url: "http://vno.onevcat.com"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: blue
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: Projects, description: My Projects, url: 'https://github.com/guoliliang'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: guoguo
+    # duoshuo: 
+    
+# Social
+social:
+  #  weibo: onevcat
+    github: https://github.com/guoliliang
+  #  twitter: onevcat
+  #  gplus: 107108267983477358170
+    mail: ttgll@163.com
+
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
